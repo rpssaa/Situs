@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Golden Ace Casino</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: radial-gradient(circle at top, #1b1b1b, #000);
+            color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(90deg, #b8860b, #ffd700, #b8860b);
+            color: #111;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,.6);
+        }
+
+        nav {
+            background-color: #111;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: #ffd700;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb')
+                        center/cover no-repeat;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px #000;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: linear-gradient(180deg, #1f1f1f, #0d0d0d);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 6px 12px rgba(0,0,0,.6);
+            transition: transform .2s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card h3 {
+            color: #ffd700;
+            margin-top: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 16px;
+            background: #ffd700;
+            color: #111;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ffea70;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0b0b0b;
+            border-top: 1px solid #333;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎰 Golden Ace Casino</h1>
+    <p>Experience the thrill • Play with style</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Slots</a>
+    <a href="#">Table Games</a>
+    <a href="#">Promotions</a>
+    <a href="#">VIP</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to the High Stakes</h1>
+    <p>Slot • Poker • Roulette • Blackjack</p>
+</section>
+
+<div class="container">
+    <div class="card">
+        <h3>♠ Slot Machines</h3>
+        <p>Ratusan slot dengan tema klasik & modern.</p>
+        <a href="#" class="btn">Play Now</a>
+    </div>
+
+    <div class="card">
+        <h3>♥ Poker</h3>
+        <p>Uji strategi dan keberuntunganmu.</p>
+        <a href="#" class="btn">Join Table</a>
+    </div>
+
+    <div class="card">
+        <h3>♦ Roulette</h3>
+        <p>Putar roda dan raih kemenangan besar.</p>
+        <a href="#" class="btn">Spin</a>
+    </div>
+
+    <div class="card">
+        <h3>♣ Blackjack</h3>
+        <p>Dekati angka 21 dan kalahkan dealer.</p>
+        <a href="#" class="btn">Deal Cards</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Golden Ace Casino • Demo UI Only</p>
+</footer>
+
+</body>
+</html>
